@@ -24,3 +24,4 @@ while True:
 
 for i in range(101):
     print(fizzbuzz_convert(i))
+# インライン化
