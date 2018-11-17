@@ -1,10 +1,13 @@
 def fizzbuzz_convert(number):
     if number % 15 == 0:
         return "FizzBuzz"
+
     if number % 3 == 0:
         return 'Fizz'
+
     if number % 5 == 0:
         return 'Buzz'
+
     return str(number)
 
 
@@ -16,9 +19,8 @@ while True:
     if number == 101:
         break
 
-for i in range(100):
-    print(fizzbuzz_convert(number))
+
 """
 
-for i in range(100):
+for i in range(101):
     print(fizzbuzz_convert(i))
